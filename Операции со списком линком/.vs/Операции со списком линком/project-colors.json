@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "32daf676-dff4-45d8-b082-cd7931a28242": {
+      "ProjectGuid": "32daf676-dff4-45d8-b082-cd7931a28242",
+      "DisplayName": "Операции со списком линком",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
