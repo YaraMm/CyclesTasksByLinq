@@ -1,0 +1,8 @@
+C:\Users\forst\OneDrive\Рабочий стол\#\задание Ванька\CyclesTasksByLinq\Операции со списком линком\Операции со списком линком\bin\Debug\Операции со списком линком.exe.config
+C:\Users\forst\OneDrive\Рабочий стол\#\задание Ванька\CyclesTasksByLinq\Операции со списком линком\Операции со списком линком\bin\Debug\Операции со списком линком.exe
+C:\Users\forst\OneDrive\Рабочий стол\#\задание Ванька\CyclesTasksByLinq\Операции со списком линком\Операции со списком линком\bin\Debug\Операции со списком линком.pdb
+C:\Users\forst\OneDrive\Рабочий стол\#\задание Ванька\CyclesTasksByLinq\Операции со списком линком\Операции со списком линком\obj\Debug\Операции со списком линком.csproj.AssemblyReference.cache
+C:\Users\forst\OneDrive\Рабочий стол\#\задание Ванька\CyclesTasksByLinq\Операции со списком линком\Операции со списком линком\obj\Debug\Операции со списком линком.csproj.SuggestedBindingRedirects.cache
+C:\Users\forst\OneDrive\Рабочий стол\#\задание Ванька\CyclesTasksByLinq\Операции со списком линком\Операции со списком линком\obj\Debug\Операции со списком линком.csproj.CoreCompileInputs.cache
+C:\Users\forst\OneDrive\Рабочий стол\#\задание Ванька\CyclesTasksByLinq\Операции со списком линком\Операции со списком линком\obj\Debug\Операции со списком линком.exe
+C:\Users\forst\OneDrive\Рабочий стол\#\задание Ванька\CyclesTasksByLinq\Операции со списком линком\Операции со списком линком\obj\Debug\Операции со списком линком.pdb
