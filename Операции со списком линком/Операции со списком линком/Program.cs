@@ -67,21 +67,43 @@ namespace Операции_со_списком_линком
         }
 
         //Сортировка не пузырьком
-        static string Sortt (IEnumerable<int> myList)
+        static IEnumerable<int> Sortt (IEnumerable<int> myList)
         {
-            string str = "";
-            myList.OrderBy(x => x);
-            foreach (int x in myList) { str += x + " "; }
-            return str;
+            
+            var ordered = myList.OrderBy(x => x);
+            
+            return ordered;
+            
         }
 
+        //поиск второго макс мин
+        static int SecondMax (IEnumerable<int> myList)
+        {
+            IEnumerable<int> lst = myList.Where(x => x != myList.Max());
+            return lst.Max();
+        }
+
+        static int SecondMin(IEnumerable<int> myList)
+        {
+            IEnumerable<int> lst = myList.Where(x => x != myList.Min());
+            return lst.Min();
+        }
+
+        //поиск k-того мин макс
+        static int KMax(IEnumerable<int> myList, int k) 
+        {
+            List<int> coll = Sortt(myList).ToList();
+            int searched = coll[coll.Count - k];
+            return searched;
+        }
         static void Main(string[] args)
         {
             List<int> myList = new List<int> { 1, 5, 2, 7, 12, 98, 22, 4 };
+            int k = 2;
             //Console.WriteLine(MiddleNum(myList));
             //Console.WriteLine(NearestToMiddle(myList));
-            //Console.WriteLine(Sqr(myList));
-            Console.WriteLine(Sortt(myList)); 
+            Console.WriteLine(string.Join(" ", Sortt(myList)));
+            Console.WriteLine(KMax(myList, k)); 
         }
     }
 }
